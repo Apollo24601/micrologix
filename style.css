@@ -1,0 +1,149 @@
+:root {
+  --primary-color: rgb(16, 84, 127);
+  --secondary-color: #323437;
+  --tertiary-color: white;
+}
+
+body {
+  max-width: 100%;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: end;
+  font-size: 57px;
+  color: var(--tertiary-color);
+  position: absolute;
+  top: 180px;
+  bottom: 8px;
+  left: 550px;
+}
+
+h2 {
+  color: #3c4858;
+  font-size: 37px;
+}
+
+@media (max-width: 576px) {
+  .paragraphs {
+    display: block;
+  }
+
+  .findLink {
+    position: relative;
+    left: 30px;
+    bottom: 70px;
+  }
+
+  .h1 {
+    font-size: 10px;
+    position: relative;
+    top: 150px;
+    bottom: 8px;
+    left: 150px;
+  }
+}
+
+.logo {
+  max-width: 140px;
+}
+
+.link-color {
+  color: var(--primary-color);
+  font-size: 14px;
+}
+
+.link-color:hover {
+  color: #b3df8f;
+}
+
+.challenge {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.picQuote {
+  text-align: end;
+  font-size: 18px;
+  color: var(--tertiary-color);
+  position: absolute;
+  top: 350px;
+  bottom: 8px;
+  left: 550px;
+}
+
+.picQuote2 {
+  text-align: end;
+  font-size: 18px;
+  color: var(--tertiary-color);
+  position: absolute;
+  top: 370px;
+  bottom: 8px;
+  left: 550px;
+}
+
+.findLink {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 15px 33px;
+  position: relative;
+  left: 30px;
+  bottom: 70px;
+}
+
+.paragraphs {
+  display: flex;
+  margin: 20px 0;
+}
+
+.block-1,
+.block-2 {
+  padding: 12px;
+  display: block;
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.quote {
+  color: var(--primary-color);
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.vendors {
+  max-width: 250px;
+}
+
+footer {
+  background: var(--secondary-color);
+  color: var(--tertiary-color);
+  padding: 25px;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.micrologix {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #999999;
+}
+.subheading {
+  margin-top: 12px;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+  text-decoration: none;
+}
